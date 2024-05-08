@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS books
+(
+    id       BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    name     VARCHAR(50),
+    language VARCHAR(15),
+    category VARCHAR(40)
+);
